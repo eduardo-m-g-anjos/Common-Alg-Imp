@@ -45,5 +45,5 @@ if __name__=='__main__':
     erastosthenes_primes = SieveOfEratosthenes(n)
     print("Sieve of Erastosthes:", timeit.default_timer() - starttime)
     
-    assert erastosthenes_primes==naive_primes, "Erro"
+    assert erastosthenes_primes==naive_primes, "Different Values! Something is wrong"
     #print("Following are the prime numbers smaller than or equal to {} \n {}".format(n,erastosthenes_primes))
