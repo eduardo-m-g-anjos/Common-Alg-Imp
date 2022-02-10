@@ -1,6 +1,6 @@
 import timeit #only for performance assesment
 
-# Python program to print all primes smaller than or equal to n
+# Python program to return all primes smaller than or equal to n
 
 def NaivePrimes(n):
     res = []
